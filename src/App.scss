@@ -1,0 +1,15 @@
+$color:#232323;
+$background-color:#dee3e2;
+$button:#116979;
+$button-color:#18b0b0;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: $background-color;
+  color:$color;
+}

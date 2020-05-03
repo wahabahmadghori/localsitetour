@@ -1,0 +1,28 @@
+@import '../../App.scss';
+
+.navbar{
+    background-color: $button;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+.navbar-links{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style-type: none;
+    text-align: center;
+}
+.navbar-link{
+    color:#fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.5s linear;
+    &:hover{
+        color:$button-color;
+    }
+}
+.active{
+    color:$button-color;
+}
